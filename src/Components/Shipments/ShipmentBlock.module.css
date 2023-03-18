@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500&display=swap");
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+.shipmentBlock {
+  width: 900px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(216, 215, 202);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: rgba(54, 54, 54, 0.07) 0px 1px 1px,
+    rgba(57, 57, 57, 0.07) 0px 2px 2px, rgba(63, 63, 63, 0.07) 0px 4px 4px,
+    rgba(176, 176, 176, 0.07) 0px 8px 8px,
+    rgba(254, 254, 254, 0.07) 0px 16px 16px;
+}
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+.number {
+  margin-right: 50px;
+  width: 220px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.num1 {
+  padding-top: 0px;
+  font-size: 50px;
+  color: rgb(144, 143, 143);
+}
+.num3{
+  font-size: 20px;
+  margin-left: 5px;
+  color: rgb(119, 119, 119);
+  margin-top: 0px;
+  padding: 0%;
+  margin-bottom: 0px;
+}
+.bidInfo {
+  color: rgb(144, 143, 143);
+  font-size: 20px;
+}
+.profilePic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.heading {
+  display: flex;
+  padding-bottom: 10px;
+}
+.transporterName {
+  color: black;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.shipmentInfo {
+  margin-top: 0px;
+  margin-left: 20px;
+}
+.info1 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 10px;
+}
+.root {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 10px;
+}
+.buttons {
+  margin-top: 0px;
+  margin-left: 20px;
+  display: flex;
+}
+.bidInput {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid black;
+  height: 30px;
+}
+::placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.button {
+  border-radius: 5px;
+  width: 80px;
+  border: 0px;
+  background-color: rgb(12, 81, 113);
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.button:hover{
+  background-color: rgb(12, 113, 32);
+
+
+}
+@media(max-width:1000px){
+  .shipmentBlock{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  
+}

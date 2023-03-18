@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500&display=swap");
+
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+.card{
+    background-color: rgb(236, 173, 151);
+    width: 70%;
+    height: 600px;
+    border-radius: 10px;
+}
+.head{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 20px;
+}

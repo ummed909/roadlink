@@ -1,0 +1,17 @@
+.bodyC{
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+.split{
+    display: flex;
+    justify-content: space-between;
+}
+.info2{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    margin-right: 30px;
+    margin-top: 100px;
+}

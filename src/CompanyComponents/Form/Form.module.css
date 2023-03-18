@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500&display=swap");
+
+.container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.head {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(33, 33, 33);
+  margin-bottom: 50px;
+}
+
+.form{
+  background-color: rgb(225, 216, 216);
+  width: 850px;
+  height: 400px;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.line{
+  margin-bottom: 30px;
+  width: 90%;
+
+}
+
+.lable{
+  font-size: 17px;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+#right{
+  margin-left: 100px;
+}
+#right1{
+  margin-left: 173px;
+}
+#right2{
+  margin-left: 139px;
+}
+.input{
+  border: 0px;
+  border-bottom: 2px solid rgb(89, 87, 87);
+  margin-left: 10px;
+  width: 200px;
+  background-color: transparent;
+}
+.input1{
+  margin-top: 10px;
+  border: 0px;
+  border-bottom: 2px solid rgb(89, 87, 87);
+  margin-left: 10px;
+  background-color: transparent;
+}
+.buttons{
+  margin-top: 50px;
+  width: 40%;
+  margin-left: 27%;
+  justify-content: space-between;
+  display: flex;
+}
+.button{
+  width: 150px;
+  height: 35px;
+  border-radius: 1000px;
+  border: 0px;
+  background-color: rgb(12, 81, 113);
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.button:hover{
+  background-color: rgb(12, 113, 59);
+
+}

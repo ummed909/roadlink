@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500&display=swap');
+
+.profile{
+    height: 600px;
+    width: 350px;
+    font-size: 30px;
+    border-radius: 10px;
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 50px;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+}
+.profilePhoto{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 1000px;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+.profilePic{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.userName{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.rating{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.status{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(220, 220, 220);
+    height: 100px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(25, 25, 25);
+}
+.earning{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.capacity{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.logoutButton{
+    background-color: #007FFF;
+    border: 0px;
+    border-radius: 1000px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin-left: 125px;
+    margin-top: 40px;
+    color: white;
+}
+.logoutButton:hover{
+    background-color: #0f4d8c;
+}
+
+
+@media(max-width:1100px){
+    .profile{
+        display: none;
+    }
+    
+}
