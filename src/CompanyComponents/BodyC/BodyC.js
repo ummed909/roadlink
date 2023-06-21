@@ -17,6 +17,7 @@ function BodyC() {
           id="wavepath"
           d="M0,0  L110,0C35,150 35,0 0,100z"
           fill="#03c04a"
+          
         ></path>
       </svg>
       <FormC/>

@@ -9,7 +9,7 @@
   padding-left: 40px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: rgb(216, 215, 202);
+  background-color: rgb(238, 241, 255);
   border-radius: 10px;
   margin-bottom: 30px;
   box-shadow: rgba(54, 54, 54, 0.07) 0px 1px 1px,
@@ -30,18 +30,24 @@
 .num1 {
   padding-top: 0px;
   font-size: 50px;
-  color: rgb(144, 143, 143);
+  color: rgb(116, 164, 219);
+  color: rgb(12, 81, 113);
+
 }
 .num3{
   font-size: 20px;
   margin-left: 5px;
-  color: rgb(119, 119, 119);
+  color: rgb(53, 49, 49);
+  color: rgb(12, 81, 113);
+
   margin-top: 0px;
   padding: 0%;
   margin-bottom: 0px;
 }
 .bidInfo {
   color: rgb(144, 143, 143);
+  color: rgb(12, 81, 113);
+
   font-size: 20px;
 }
 .profilePic {
@@ -101,7 +107,10 @@
   border-radius: 5px;
   width: 80px;
   border: 0px;
-  background-color: rgb(12, 81, 113);
+  
+  background-color: rgb(41, 114, 202);
+  background-color: rgb(18, 218, 108);
+
   color: white;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
